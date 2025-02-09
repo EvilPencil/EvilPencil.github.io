@@ -8,6 +8,12 @@ baseurl:     ""
 url:         "https://evilpencil.github.io/"
 date_format: "%-d.%m.%Y"
 
+# Social icons
+github_username: EvilPencil
+
+# Yandex_Metrika
+Yandex_Metrika:
+
 # Build settings
 markdown:     kramdown
 redcarpet:
