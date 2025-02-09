@@ -1,11 +1,11 @@
 # Site settings
-title:       "Jekyll Bootstrap 4 with Docker"
-header_title: "Jekyll Bootstrap 4 with Docker"
+title:       "Andrey Danilov Page"
+header_title: "Hi, I'm Andrey Danilov"
 email:       your@ema.il
 author:      Your Name
-description: "Jekyll static blog boilerplate with Bootstrap 4 and Docker"
-baseurl:     "/jekyll-bootstrap4-docker"
-url:         "https://hexlet-boilerplates.github.io"
+description: "Jekyll static blog boilerplate with Andrey Danilov Page"
+baseurl:     ""
+url:         "https://EvilPencil.github.io"
 date_format: "%-d.%m.%Y"
 
 # Google services
@@ -27,13 +27,13 @@ ajaxify_contact_form: true
 disqus_shortname: "disqus_xxx"
 
 # Social icons
-github_username: hexlet
+github_username: EvilPencil
 bitbucket_username:
 stackoverflow_id:
-twitter_username: hexlet
+twitter_username: EvilPencil
 google_plus_id:
 linkedin_username:
-facebook_username: hexlet
+facebook_username: EvilPencil
 angellist_username:
 medium_id:
 bitcoin_url:
