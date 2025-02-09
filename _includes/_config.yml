@@ -1,0 +1,9 @@
+# Site settings
+title:       "Jekyll"
+header_title: "Jekyll Bootstrap"
+email:       your@ema.il
+author:      Andrey Danilov
+description: "Jekyll static blog boilerplate with Bootstrap"
+baseurl:     ""
+url:         "https://evilpencil.github.io/"
+date_format: "%-d.%m.%Y"
