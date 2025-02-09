@@ -1,9 +1,9 @@
 # Site settings
-title:       "Jekyll"
-header_title: "Jekyll Bootstrap"
+title:       "Andrey Danilov"
+header_title: "Andrey Danilov Page"
 email:       your@ema.il
 author:      Andrey Danilov
-description: "Jekyll static blog boilerplate with Bootstrap"
+description: "My page"
 baseurl:     ""
 url:         "https://evilpencil.github.io/"
 date_format: "%-d.%m.%Y"
