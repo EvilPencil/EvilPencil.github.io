@@ -1,5 +1,5 @@
 ---
-layots: post
+layout: post
 ---
 
 ## Hello World!
