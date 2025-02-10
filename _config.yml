@@ -4,6 +4,7 @@ github_username: EvilPencil
 
 
 collections:
+  authors:
   pages:
     output: true
     permalink: "/:name"
