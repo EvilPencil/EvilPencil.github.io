@@ -4,6 +4,8 @@
   link: /about.html
 - name: Blog
   link: /blog
+- name: Staff
+  link: /staff.html
 - name: Contacts
   link: /contacts.html
 - name: GitHub
