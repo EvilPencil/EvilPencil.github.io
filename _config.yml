@@ -1,27 +1,28 @@
 # Site settings
-title:       "Andrey Danilov"
-header_title: "Andrey Danilov Page"
-email:       your@ema.il
-author:      Andrey Danilov
-description: "My page"
-baseurl:     ""
-url:         "https://danilovandrey.ru/"
-date_format: "%-d.%m.%Y"
+title: "Home Page"
 
-# Social icons
-github_username: EvilPencil
+collections:
+  pages:
+    output: true
+    permalink: "/:name"
 
-# Yandex_Metrika
-Yandex_Metrika:
+# Front Matter Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: "/:year/:i_month/:i_day/:title"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
 
-# Build settings
-markdown:     kramdown
-redcarpet:
-  extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    "/:title/"
-paginate:     15
-sass:
-  compressed: true
+# Conversion
+markdown: kramdown
+highlighter: rouge
 
-# Gems
-gems: [jekyll-paginate]
+paginate: 10
+paginate_path: "/blog/page/:num"
