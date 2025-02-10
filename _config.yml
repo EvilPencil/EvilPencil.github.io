@@ -1,5 +1,6 @@
 # Site settings
 title: "Home Page"
+github_username: EvilPencil
 
 collections:
   pages:
