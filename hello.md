@@ -1,4 +1,5 @@
 ---
+layots: post
 ---
 
 ## Hello World!
