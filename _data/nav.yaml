@@ -3,7 +3,7 @@
 - name: About
   link: /about.html
 - name: Blog
-  link: /blog.html
+  link: /blog
 - name: Contacts
   link: /contacts.html
 - name: GitHub
