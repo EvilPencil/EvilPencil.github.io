@@ -3,11 +3,11 @@ title: "Home Page"
 github_username: EvilPencil
 
 plugins:
-  - jekyll-feed
+  #- jekyll-feed
   - jekyll-paginate
   # - jekyll-redirect-from
-  - jekyll-sitemap
-  - jemoji
+  #- jekyll-sitemap
+  #- jemoji
 
 collections:
   pages:
