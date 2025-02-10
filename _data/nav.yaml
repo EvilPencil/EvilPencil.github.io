@@ -5,7 +5,7 @@
 - name: Contacts
   link: /contacts.html
 - name: GitHub
-  link: https://github.com/{{ site.github_username }}
+  link: https://github.com/EvilPencil
 - name: Yandex Browser
   link: https://ya.cc/6APGSB
 - name: Windows_x86
