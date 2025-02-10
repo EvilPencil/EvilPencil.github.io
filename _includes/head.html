@@ -1,21 +1,3 @@
-{% if page.title %}
-  {% assign title = page.title %}
-{% else %}
-  {% assign title = site.title %}
-{% endif %}
-
-{% if page.collection == 'posts' %}
-  {% assign description = page.excerpt | strip_html | strip_newlines %}
-{% else %}
-  {% if page.description %}
-    {% assign description = page.description %}
-  {% else %}
-    {% assign description = site.description %}
-  {% endif %}
-{% endif %}
-
-{% assign url = page.url  | absolute_url %}
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
