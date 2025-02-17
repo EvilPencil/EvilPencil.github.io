@@ -8,7 +8,7 @@ collections:
     output: true
   pages:
     output: true
- #   permalink: "/:categories/:year/:month/:day/:title:output_ext"
+    permalink: ":name"
 
 # Front Matter Defaults
 defaults:
@@ -22,8 +22,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      permalink: "/:categories/:year/:month/:day/:title:output_ext"
-      #permalink: "/:year/:i_month/:i_day/:title"
+      permalink: "/:categories/:year/:i_month/:i_day/:title"
   - scope:
       path: ""
       type: "pages"
