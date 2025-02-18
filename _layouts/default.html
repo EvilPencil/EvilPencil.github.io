@@ -1,20 +1,12 @@
 <!doctype html>
-
 <html lang="ru">
-{% include head.html %}
-
-<body>
-{% if page.id == 'home' %}
+  {% include head.html %}
+  <body>
+  {% if page.id == 'home' %}
   {% include sidebar.html %}
-{% endif %}
-
-{% include navbar.html %}
-
-<div>
+  {% endif %}
+  {% include navbar.html %}
   {{ content }}
-</div>
-
-{% include footer.html %}
-
-</body>
+  {% include footer.html %}
+  </body>
 </html>
